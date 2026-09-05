@@ -51,6 +51,9 @@ a:hover{ color: var(--rust); }
   [data-path-dot]{ animation: none !important; opacity: 0 !important; }
   html{ scroll-behavior: auto; }
 }
+[data-btn="solid"]:hover{ background:#000; color:var(--paper-soft); }
+[data-btn="ghost"]:hover{ background:var(--ink); color:var(--paper-soft); }
+[data-link="quiet"]:hover{ color:var(--ink); text-decoration-color:var(--rust); }
 :focus-visible{ outline: 2px solid var(--rust); outline-offset: 3px; }
 </style>
 </head>
@@ -67,7 +70,7 @@ a:hover{ color: var(--rust); }
       <a href="#faq" style="font-size:14px;text-decoration:none;color:var(--ink-soft)">FAQ</a>
       <a href="#contact" style="font-size:14px;text-decoration:none;color:var(--ink-soft)">Contact</a>
     </nav>
-    <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14px;font-weight:600;text-decoration:none;border:1px solid var(--ink);padding:9px 18px;border-radius:var(--radius);white-space:nowrap;color:var(--ink);transition:background .15s ease,color .15s ease" style-hover="background:var(--ink);color:var(--paper-soft)">Book a 15-minute call</a>
+    <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14px;font-weight:600;text-decoration:none;border:1px solid var(--ink);padding:9px 18px;border-radius:var(--radius);white-space:nowrap;color:var(--ink);transition:background .15s ease,color .15s ease" data-btn="ghost">Book a 15-minute call</a>
   </div>
 </header>
 
@@ -79,8 +82,8 @@ a:hover{ color: var(--rust); }
         <h1 style="font-family:'Inter Tight',sans-serif;letter-spacing:-0.015em;font-size:clamp(2.4rem,4.6vw,3.4rem);line-height:1.12;font-weight:700;margin:22px 0 20px">Every call you don't answer is a booking someone else takes.</h1>
         <p style="font-size:1.12rem;color:var(--ink-soft);max-width:52ch;margin-bottom:30px">Nabflow puts an AI receptionist on your phone line. It answers after hours, at peak, and while the front desk is with a client — works out which service the caller wants, and books them in. The calls it shouldn't handle go to a person.</p>
         <div style="display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-bottom:30px">
-          <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14.5px;font-weight:600;text-decoration:none;padding:15px 26px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" style-hover="background:#000;color:var(--paper-soft)">Book a 15-minute call</a>
-          <a href="#how" style="font-size:14.5px;font-weight:500;text-decoration:underline;text-decoration-color:var(--paper-line);text-underline-offset:4px;color:var(--ink-soft)" style-hover="color:var(--ink);text-decoration-color:var(--rust)">See how it works →</a>
+          <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14.5px;font-weight:600;text-decoration:none;padding:15px 26px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" data-btn="solid">Book a 15-minute call</a>
+          <a href="#how" style="font-size:14.5px;font-weight:500;text-decoration:underline;text-decoration-color:var(--paper-line);text-underline-offset:4px;color:var(--ink-soft)" data-link="quiet">See how it works →</a>
         </div>
       </div>
       <div data-reveal="out" style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:60px">
@@ -199,7 +202,7 @@ a:hover{ color: var(--rust); }
         </div>
       </div>
       <div data-reveal="out" style="margin-top:40px">
-        <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14.5px;font-weight:600;text-decoration:none;padding:15px 26px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" style-hover="background:#000;color:var(--paper-soft)">Book a 15-minute call</a>
+        <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:14.5px;font-weight:600;text-decoration:none;padding:15px 26px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" data-btn="solid">Book a 15-minute call</a>
       </div>
     </div>
   </section>
@@ -324,7 +327,7 @@ a:hover{ color: var(--rust); }
       <div data-reveal="out">
         <h2 style="font-family:'Inter Tight',sans-serif;letter-spacing:-0.015em;font-size:clamp(1.9rem,3.8vw,2.6rem);font-weight:700;max-width:24ch;margin:0 auto 16px">Have your phone answered tonight, not tomorrow.</h2>
         <p style="color:var(--ink-soft);max-width:52ch;margin:0 auto 30px">Fifteen minutes on how your calls are handled now and what an agent would do with them. The first thirty days are free, and if it isn't booking appointments you owe nothing.</p>
-        <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:15.5px;font-weight:600;text-decoration:none;padding:17px 32px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" style-hover="background:#000;color:var(--paper-soft)">Book a 15-minute call</a>
+        <a href="mailto:nab@nabflow.com?subject=Book%20a%2015-minute%20call" style="font-size:15.5px;font-weight:600;text-decoration:none;padding:17px 32px;border-radius:var(--radius);display:inline-block;background:var(--ink);color:var(--paper-soft)" data-btn="solid">Book a 15-minute call</a>
       </div>
     </div>
   </section>
